@@ -1,6 +1,3 @@
-// src/BookList.js
-// Updated with the provided code from the document.
-
 import './App.css';
 
 function BookList({ books }) {
