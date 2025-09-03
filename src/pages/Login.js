@@ -1,8 +1,7 @@
-// src/pages/Login.js
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './Login.css'; // New CSS file
+import './Login.css';
 
 const Login = ({ setIsLoggedIn }) => {
   const [email, setEmail] = useState('');
